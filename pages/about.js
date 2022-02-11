@@ -1,11 +1,10 @@
-import Link from 'next/link';
-import Nav from '../components/Nav'
+import Layout from '../components/Layout'
 
 const About = () => (
-	<div>
-		This is the about page
-		<Nav />
-	</div>
+	<Layout>
+		<h1>This is the about page</h1>
+		
+	</Layout>
 );
 
 export default About;

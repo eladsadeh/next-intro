@@ -1,11 +1,9 @@
-import Link from 'next/link';
-import Nav from '../components/Nav'
+import Layout from '../components/Layout'
 
 const Index = () => (
-	<div>
-		First Next App!
-		<Nav />
-	</div>
+	<Layout>
+		<h1>First Next App!</h1>
+	</Layout>
 );
 
 export default Index;
